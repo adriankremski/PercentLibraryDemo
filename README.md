@@ -1,27 +1,7 @@
-# JobSchedulerDemo
+# Percent Support Library
 
-Simple app to test new Android JobScheduler API posibillities
+Simple app to test new Percent Support library
 
 ![GitHub Logo](./images/demo.gif)
 
-## Available constraints for executing JobInfo
-
-<ul>
- <li>Job id</li>
- <li>Minimum latency in milliseconds (setMinimumLatency method)</li>
- <li>Deadline in milliseconds (setOverrideDeadline method)</li>
- <li>Persists after reboot (setPersisted method)</li>
- <li>Requires charging (setRequiresCharging method)</li>
- <li>Requires device idle (setRequiresDeviceIdle method)</li>
- <li>Network type (setRequiredNetworkType method)</li>
-</ul>
-
-## Managing jobs 
-
-<ul>
- <li>Starting job</li>
- <li>Cancelling all pending jobs</li>
- <li>Displaying list of pending jobs</li>
-</ul>
-
-This app was done as a part of article http://www.schibsted.pl/2015/05/jobscheduler-to-the-rescue/. Pdf version can be downloaded [here](./art.pdf) 
+This app was done as a part of article http://www.schibsted.pl/2016/03/the-percent-support-library/. Pdf version can be downloaded [here](./art.pdf) 
